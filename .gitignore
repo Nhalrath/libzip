@@ -9,3 +9,8 @@
 /.clangd
 /compile_commands.json
 /cmake-build-debug
+
+/subprojects/packagecache/
+/subprojects/zlib-*/
+/subprojects/zstd-*/
+/lib/zip_err_str.c

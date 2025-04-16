@@ -69,7 +69,7 @@
 #cmakedefine WORDS_BIGENDIAN
 #cmakedefine HAVE_SHARED
 /* END DEFINES */
-#define PACKAGE "@CMAKE_PROJECT_NAME@"
-#define VERSION "@CMAKE_PROJECT_VERSION@"
+#define PACKAGE "${PACKAGE}"
+#define VERSION "${VERSION}"
 
 #endif /* HAD_CONFIG_H */

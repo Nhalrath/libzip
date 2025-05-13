@@ -28,7 +28,7 @@ use_bzip2 = false
 use_lzma = false
 use_zstd = false
 
-zlib_dep = dependency('zlib', version: '>=1.1.2', required: true)
+zlib_dep = dependency('zlib', version: '>=1.3.1', required: true)
 zstd_dep = dependency('libzstd', version: '>=1.4.0', required: get_option('enable_zstd'))
 
 libzip_deps = [zlib_dep]
